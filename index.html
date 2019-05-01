@@ -8,7 +8,9 @@
     <link rel="stylesheet" type="text/css" href="/styles/main.css">
   </head>
   <body>
+
     <div class="container">
+
       <!--Nav Bar-->
       <nav>
         <div id="left-nav">
@@ -25,29 +27,26 @@
 
       <main>
         <!--Hero Section-->
-        <section id="hero-container">
-          <div id="hero-image">
+        <section id="hero-container" class="flex-container rounded-corners">
+          <div class="left-half">
             <img src="assets/home/hero-image.png" alt="Headshot of Me">
           </div>
 
-          <div id="hero-text">
+          <div class"right-half">
             <h2>Hi there! I’m Nick Commella, and I’m a UX designer. <br><br>I create stuff in sunny Los Angeles.</h2>
           </div>
         </section>
 
         <!--Script Slate Article-->
-        <article class="project">
-          <!--Will probably convert this to article background on styling pass using color attribute-->
-          <img src="assets/home/script-slate-bg.png" alt="blue background">
-
-          <section>
+        <article id="script-slate-container" class="flex-container rounded-corners">
+          <section class="left-half">
             <img src="assets/home/script-slate-logo.png" alt="script slate logo">
-            <p>A cloud-based platform for filmmakers and Hollywood executives alike to organize their material and track their submissions.</p>
+            <p class="centered">A cloud-based platform for filmmakers and Hollywood executives alike to organize their material and track their submissions.</p>
             <!--Style like a button using css on styling pass-->
-            <a href="script-slate-case-study.html" class="button">View Case Study</a>
+            <a href="script-slate-case-study.html" class="button-link">View Case Study</a>
           </section>
 
-          <section>
+          <section class="right-half">
             <img src="assets/home/slate-desk-display.png" alt="script slate screens on various devices">
           </section>
 
@@ -57,7 +56,7 @@
 
     <footer>
       <div id="footer-content">
-        <h3>Reach Out!</h3>
+        <h4>Reach Out!</h4>
         <a href="mailto:ncommella@gmail.com"><img src="assets/global/email-icon.png" alt="Click to send me an email"></a>
         <a href="https://www.linkedin.com/in/nick-commella/" target="_blank"><img src="assets/global/linkedin-icon.png" alt="Click to go to my LinkedIn"></a>
         <a href="https://github.com/ncommella" target="_blank"><img src="assets/global/github-icon.png" alt="Click to go to my Github"></a>
