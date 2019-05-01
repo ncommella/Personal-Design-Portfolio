@@ -34,10 +34,20 @@ h5 {
   line-height: 2.8rem;
 }
 
+li {
+  font-family: 'montserrat';
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+}
+
 p {
   font-family: 'montserrat';
   font-size: 1.6rem;
   line-height: 2.8rem;
+}
+
+span {
+  font-weight: 500;
 }
 
 .button-link {
