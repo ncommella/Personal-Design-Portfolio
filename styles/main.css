@@ -1,1 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+  border: 1px red solid;
+  margin: auto;
+}
 
+nav {
+  align-items: center;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+#left-nav {
+  flex-basis: 50%;
+}
+
+#right-nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-basis: 50%;
+}
+
+nav li a:link {
+  color: #002166;
+  margin-left: 2rem;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: #20A9F1;
+}
+
+nav li a:active {
+  color: #FF7680;
+}
+
+nav ul {
+  display: flex;
+}
+
+
+footer {
+  width: 100%;
+  background-color: #080808;
+}
+
+footer h3 {
+  color: white;
+}
