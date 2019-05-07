@@ -7,7 +7,7 @@
 
 h1, h2, h3, h4, h5 {
   font-family: 'fira sans';
-  font-weight: 800;
+  font-weight: 700;
 }
 h1 {
   font-size: 7.2rem;
@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-  font-size: 4.8rem;
+  font-size: 5.5rem;
   line-height: 6.4rem;
 }
 
@@ -47,7 +47,7 @@ p {
 }
 
 span {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .blue-card {
@@ -109,7 +109,7 @@ span {
 nav {
   align-items: center;
   display: flex;
-  margin: 2.4rem 0 5rem 0;
+  margin: 2.4rem 0 7.2rem 0;
 }
 
 #left-nav {
@@ -211,7 +211,7 @@ footer h4 {
 }
 
 #full-story {
-  margin-top: 5.6rem;
+  margin-top: 7.2rem;
 }
 #full-story .left-half {
   flex: 65%;
@@ -232,3 +232,44 @@ footer h4 {
 }
 
 /********** Resume Selectors **********/
+
+.job {
+  margin-bottom: 2.4rem;
+}
+
+.job ul {
+  list-style: disc outside;
+  padding-left: 2.4rem;
+}
+
+.resume-header {
+  color: #002166;
+}
+
+.resume-time {
+  color: #787878;
+}
+
+.resume-left {
+  flex-direction: column;
+  flex: 40%;
+}
+
+.resume-right {
+  flex-direction: column;
+  margin-left: 7.2rem;
+}
+
+.skill-section {
+  margin-bottom: 2.4rem;
+}
+
+
+#resume-pdf {
+  margin-top: 4rem;
+  align-self: flex-start;
+}
+
+#resume-summary {
+  margin-bottom: 4.8rem;
+}
