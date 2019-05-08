@@ -22,6 +22,11 @@ h2 {
   line-height: 3.4rem;
 }
 
+h3 {
+  font-size: 2rem;
+  line-height: 2.8rem;
+}
+
 
 li {
   font-family: 'montserrat';
@@ -133,7 +138,7 @@ footer {
   display: flex;
   height: 8.8rem;
   justify-content: center;
-  margin-top: 7.2rem;
+  margin-top: 4.8rem;
   width: 100%;
 }
 
@@ -319,4 +324,71 @@ footer h2 {
 .wireframe-image-container img {
   margin-bottom: 1.6rem;
   width: 100%;
+}
+
+/********** Resume Selectors **********/
+.resume-header {
+  color: #002166;
+  margin-bottom: .8rem;
+}
+
+.resume-section {
+  margin-bottom: 2.4rem;
+}
+
+.experience ul {
+  list-style: disc outside;
+  margin-left: 1.6rem;
+}
+
+.job {
+  margin-bottom: 2.4rem;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-section {
+  margin-bottom: .8rem;
+}
+
+.resume-button {
+  margin: auto;
+}
+
+.resume-time {
+  font-size: 1.6rem;
+  color: #787878;
+}
+
+/********** About Page Selectors **********/
+.email-button-wrapper {
+  display: flex;
+}
+.full-story-section {
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.story-images {
+  justify-content: space-between;
+  margin: .8rem 0 1.6rem 0;
+}
+
+.story-image-wrapper {
+  flex-basis: 48%;
+}
+
+.story-image-wrapper img {
+  width: 100%;
+}
+
+.ux-section {
+  flex-direction: column;
+}
+
+.ux-section a {
+  margin: 1.6rem auto;
 }
