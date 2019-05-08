@@ -392,3 +392,11 @@ footer h2 {
 .ux-section a {
   margin: 1.6rem auto;
 }
+
+.ux-text {
+  padding: 1.6rem;
+}
+
+.ux-text p {
+  margin-top: .8rem;
+}
