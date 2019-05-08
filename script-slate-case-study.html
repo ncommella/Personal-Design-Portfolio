@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Script Slate Case Study</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" type="text/css" href="/styles/reset.css">
     <link rel="stylesheet" type="text/css" href="/styles/main.css">
@@ -13,36 +14,49 @@
 
       <!--Nav Bar-->
       <nav>
-        <div id="left-nav">
+        <div class="nav-logo">
           <a href="index.html"><img src="assets/global/nick-logo.png" alt="nick commella logo"></a>
         </div>
-        <div id="right-nav">
-          <ul>
-            <li><a href="script-slate-case-study.html">Work</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="resume.html">Resume</a></li>
+        <div>
+          <ul class="nav-links">
+            <li class="nav-item"><a href="script-slate-case-study.html">Work</a></li>
+            <li class="nav-item middle-nav-item"><a href="about.html">About</a></li>
+            <li class="nav-item"><a href="resume.html">Resume</a></li>
           </ul>
         </div>
       </nav>
 
       <main>
         <!--Pictures at the top-->
-        <section>
-          <img src="assets/script-slate/dashboard-sketches.png" alt="Sketches of the Dashboard Screen">
-          <img src="assets/script-slate/dashboard-display.png" alt="The final Dashboard Screen on an iMac">
-          <img src="assets/script-slate/case-study-logo.png" alt="The Script Slate logo">
+        <section class="flex-container top-images">
+          <img class="desktop-image" src="assets/script-slate/dashboard-sketches.png" alt="Sketches of the Dashboard Screen">
+          <img class="desktop-image"src="assets/script-slate/dashboard-display.png" alt="The final Dashboard Screen on an iMac">
+          <img class="desktop-image"src="assets/script-slate/case-study-logo.png" alt="The Script Slate logo">
+
+          <img class="mobile-image mobile-case-logo"src="assets/script-slate/mobile-case-study-logo.png" alt="The Script Slate logo">
+          <img class="mobile-image mobile-case-top" src="assets/script-slate/mobile-dashboard-sketches.png" alt="Sketches of the Dashboard Screen">
+          <img class="mobile-image mobile-case top"src="assets/script-slate/mobile-dashboard-display.png" alt="The final Dashboard Screen on an iMac">
+
         </section>
 
         <!--Summary Section-->
-        <section>
-          <h1>Summary</h1>
-          <p class="large-body">The entertainment industry is stuck using spreadsheets to track complex projects when it should have the modern products other industries enjoy. With thousands of screenplays changing hands in Hollywood everyday, Script Slate wants to give executives, producers, and indie filmmakers the user experience they deserve to easily organize material and submissions. That way, they have more time to be creative and make content for everyone to enjoy.</p>
+        <section class="case-section">
+          <h1 class="case-header">Summary</h1>
+          <p class="small-body">The entertainment industry is stuck using spreadsheets to track complex projects when it should have the modern products other industries enjoy. With thousands of screenplays changing hands in Hollywood everyday, Script Slate wants to give executives, producers, and indie filmmakers the user experience they deserve to easily organize material and submissions. That way, they have more time to be creative and make content for everyone to enjoy.</p>
+
+          <!--Prototype Buttons Section-->
+          <section class="prototype-button-section">
+            <a class="button-link centered mobile-prototype-button" href="https://invis.io/PER72NI738H" target="_blank">View Desktop Prototype</a>
+            <a class="button-link centered" href="https://invis.io/AJR72QOF82U" target="_blank">View Mobile Prototype</a>
+          </section>
         </section>
 
+
+
         <!--Roles, Deliverables, and Tools Section-->
-        <section>
-          <div class="detail-pill">
-            <h2 class="centered">Design Roles</h2>
+        <section class="case-section">
+          <div class="detail-pill blue-card">
+            <h2 class="centered case-header">Design Roles</h2>
             <ul class="small-body centered">
               <li>UX Research & Design</li>
               <li>UI Design</li>
@@ -50,8 +64,8 @@
             </ul>
           </div>
 
-          <div class="time-pill">
-            <h2 class="centered">Time</h2>
+          <div class="detail-pill blue-card">
+            <h2 class="centered case-header">Time</h2>
             <ul class="small-body centered">
               <li>1st Major Project</li>
               <li>Research Process: 2 Months</li>
@@ -59,8 +73,8 @@
             </ul>
           </div>
 
-          <div class="detail-pill">
-            <h2 class="centered">Deliverables</h2>
+          <div class="detail-pill blue-card">
+            <h2 class="centered case-header">Deliverables</h2>
             <ul class="small-body centered">
               <li>User Surveys</li>
               <li>Competitive Analysis</li>
@@ -77,8 +91,8 @@
             </ul>
           </div>
 
-          <div class="detail-pill">
-            <h2 class="centered">Tools Used</h2>
+          <div class="detail-pill blue-card">
+            <h2 class="centered case-header">Tools Used</h2>
             <ul class="small-body centered">
               <li>Sketch</li>
               <li>InVision</li>
@@ -90,15 +104,11 @@
           </div>
         </section>
 
-        <!--Prototype Buttons Section-->
-        <section>
-          <a href="https://invis.io/PER72NI738H" target="_blank">View Desktop Prototype</a>
-          <a href="https://invis.io/AJR72QOF82U" target="_blank">View Mobile Prototype</a>
-        </section>
 
-        <section>
-          <div class="problems">
-            <h1>Problems</h1>
+
+
+          <div class="problems case-section">
+            <h1 class="case-header">Problems</h1>
             <ol>
               <li>It's hard to keep an organized archive of material in Hollywood (scripts, short films, and feature films)</li>
               <li>It is time consuming to track what material you've sent or received and to whom</li>
@@ -106,19 +116,18 @@
             </ol>
           </div>
 
-          <div class="solutions">
-            <h1>Solutions</h1>
+          <div class="solutions case-section">
+            <h1 class="case-header">Solutions</h1>
             <ol>
               <li>Let users upload scripts and videos in all formats, and store them in one sortable and filterable database</li>
               <li>Have a tab dedicated to tracking so users can know where material came from or went to and when it happened</li>
               <li>Include a contacts tab so that users can access that information in the same app</li>
             </ol>
           </div>
-        </section>
 
         <!--User Research Section-->
-        <section>
-          <h1>User Research</h1>
+        <section class="case-section user-research">
+          <h1 class="case-header">User Research</h1>
           <h2>85%</h2>
           <p>of people use a shared database or cloud service to archive material</p>
 
@@ -139,29 +148,42 @@
         </section>
 
         <!--Competitive Analysis Section -->
-        <section>
-          <h1>Competitive Analysis</h1>
+        <section class="case-section">
+          <h1 class="case-header">Competitive Analysis</h1>
           <p>To ensure Script Slate could carve out a niche in the cloud market, I examined three competitors: Google Drive, Dropbox, and Evernote. They had many strengths such as the ability to upload multiple kinds of files, good design, and folder-based organization. However, none of them had tracking capabilities for files or incorporated contacts that would greatly enhance the Hollywood workflow.</p>
-          <img src="assets/script-slate/drive-icon.png" alt="Google Drive icon">
-          <img src="assets/script-slate/dropbox-icon.png" alt="Dropbox icon">
-          <img src="assets/script-slate/evernote-icon.png" alt="Evernote icon">
+
+          <div class="competitive-images">
+            <div class="competitive-image-container">
+              <img src="assets/script-slate/drive-icon.png" alt="Google Drive icon">
+            </div>
+            <div class="competitive-image-container">
+              <img src="assets/script-slate/dropbox-icon.png" alt="Dropbox icon">
+            </div>
+            <div class="competitive-image-container">
+              <img src="assets/script-slate/evernote-icon.png" alt="Evernote icon">
+            </div>
+          </div>
+
         </section>
 
         <!--User Personas Section-->
-        <section>
+        <section class="case-section personas">
+          <h1 class="case-header">User Personas</h1>
           <div class="lauren">
-            <img src="assets/script-slate/lauren.png" alt="Lauren, an aspiring filmmaker">
-            <h3>Lauren H.</h3>
+            <div class="lauren-image-container">
+              <img src="assets/script-slate/lauren.png" alt="Lauren, an aspiring filmmaker">
+            </div>
+            <h2>Lauren H.</h2>
             <p>29 Y/O aspiring filmmaker from Los Angeles</p>
 
-            <h3>Goals</h3>
+            <h2>Goals</h2>
             <ul>
               <li>I want to easily track who I've sent my scripts to</li>
               <li>I want to send my material to my contacts on the fly</li>
               <li>I want to be able to access all my material in one central place</li>
             </ul>
 
-            <h3>Frustrations</h3>
+            <h2>Frustrations</h2>
             <ul>
               <li>Sometimes I send the wrong version of a script, and I have to resend the correct one</li>
               <li>I hate remembering a bunch of passwords for different services</li>
@@ -170,18 +192,20 @@
           </div>
 
           <div class="ethan">
-            <img src="assets/script-slate/ethan.png" alt="Ethan, a development coordinator">
-            <h3>Ethan C.</h3>
+            <div class="ethan-image-container">
+              <img src="assets/script-slate/ethan.png" alt="Ethan, a development coordinator">
+            </div>
+            <h2>Ethan C.</h2>
             <p>28 Y/O development coordinator from New York City</p>
 
-            <h3>Goals</h3>
+            <h2>Goals</h2>
             <ul>
               <li>I want to know what scripts came into the company in the last week</li>
               <li>I want to distribute material to team members easily</li>
               <li>I want to quickly find any obscure script my bosses need to see</li>
             </ul>
 
-            <h3>Frustrations</h3>
+            <h2>Frustrations</h2>
             <ul>
               <li>I have to remind some people to look at their assigned materials over and over</li>
               <li>Notes on material can be hard to track or format when they are in other documents</li>
@@ -191,119 +215,133 @@
         </section>
 
         <!--User Stories & User Flows Section-->
-        <section>
-          <img src="assets/script-slate/upload-flow.png" alt="User flow of uploading an item">
+        <section class="case-section gray-card">
+          <img class="desktop-image" src="assets/script-slate/upload-flow.png" alt="User flow of uploading an item">
           <div class="modal">
-            <h2 class="centered white">User Stories & User Flows</h2>
+            <h2 class="centered white case-header">User Stories & User Flows</h2>
             <p class="centered white">Based on the user personas and market survey, I generated user stories based on the needs of New, Returning, and All users. These stories were then converted into user flows using whimsical.co in order to determine the most efficient ways for users to accomplish their goals.</p>
-            <a href="https://docs.google.com/spreadsheets/d/1MjQZF_x9PvBHOs_yZI4rOi7hx6GLf1fNBk7CEwUXQkU/edit?usp=sharing" target="_blank">View Full Stories</a>
-            <a href="https://whimsical.co/TJbzQmY41vJkXwCpmi1oW1" target="_blank">View Full Flows</a>
+
+            <div class="modal-buttons">
+              <a class="button-link small-button-link" href="https://docs.google.com/spreadsheets/d/1MjQZF_x9PvBHOs_yZI4rOi7hx6GLf1fNBk7CEwUXQkU/edit?usp=sharing" target="_blank">View Full Stories</a>
+              <a class="button-link small-button-link" href="https://whimsical.co/TJbzQmY41vJkXwCpmi1oW1" target="_blank">View Full Flows</a>
+            </div>
           </div>
         </section>
 
         <!--Rebranding Section-->
-        <section>
-          <h1>Rebranding</h1>
+        <section class="case-section">
+          <h1 class="case-header">Rebranding</h1>
+          <div class="rebranding-image-container">
+            <img src="assets/script-slate/rebranding-sketches.png" alt="Logo sketches for Weekend Speed">
+          </div>
           <p>The app was originally planned to assist with a unique meeting in Hollywood called a weekend read, and the name for the app was going to be Weekend Speed. However, the user research showed that 60% of people didn’t have a weekend read at their companies so a pivot was called for. I sent out another survey with potential names generated by analyzing the problems users actually wanted solved. They voted for Script Slate. In Hollywood, “slate” is a term that refers to a company’s list of projects or their “slate.”
-            <br><br>With a new name selected, I set to work developing a logo.</p>
-          <img src="assets/script-slate/rebranding-sketches.png" alt="Logo sketches for Weekend Speed">
+          <br><br>With a new name selected, I set to work developing a logo.</p>
         </section>
 
         <!--Logos Section-->
-        <section>
-          <div class="logo-sketches">
+        <section class="case-section">
+          <h1 class="case-header">Logo</h1>
+          <div class="logo-images">
             <img src="assets/script-slate/logo-sketches.png" alt="Sketches and planning for the Script Slate logo">
-          </div>
-          <div class="right-logos">
             <img src="assets/script-slate/logo-pill.png" alt="Script Slate logo">
             <img src="assets/script-slate/light-logo-pill.png" alt="Light version of the Script Slate logo">
             <img src="assets/script-slate/b-logo-pill.png" alt="Dark monochrome Script Slate logo">
             <img src="assets/script-slate/w-logo-pill.png" alt="Light monochrome Script Slate logo">
+          </div>
 
             <p>The logo resembles the material cards the user will see in the app when viewing all their uploaded material. The simple geometric shapes and simple design communicate the organized and clean feel of the app. The staggered layout forms the shape of an “S” for Script Slate. Furthermore, the clean, plain squares resemble a slab of slate.</p>
-          </div>
+
         </section>
 
-        <!--Color and Type Sections -- Make backgrounds of divs blue on styling pass-->
-        <section>
-          <div class="color-group">
-            <h1>Color</h1>
-            <img src="assets/script-slate/color-grid.png" alt="Grid of the Script Slate colors">
-            <p class="small-body">I chose purple for the logo since it combines the passion of red and the professionalism of blue. The color psychology also communicates our creative brand. Blue and orange are the two most commonly used contrasting colors in movie posters so they were a natural choice for accents. The muted red orange ties the accents back into the purple, and is used for actions with a more negative connotation. The various gray shades allow for more multi-dimensional designs without distracting the eye.</p>
-          </div>
+        <!--Color and Type Sections  Make backgrounds of divs blue on styling pass-->
+          <section class="color-section case-section">
+            <h1 class="case-header">Color</h1>
+            <div class="color-image-container">
+              <img src="assets/script-slate/color-grid.png" alt="Grid of the Script Slate colors">
+            </div>
+            <p>I chose purple for the logo since it combines the passion of red and the professionalism of blue. The color psychology also communicates our creative brand. Blue and orange are the two most commonly used contrasting colors in movie posters so they were a natural choice for accents. The muted red orange ties the accents back into the purple, and is used for actions with a more negative connotation. The various gray shades allow for more multi-dimensional designs without distracting the eye.</p>
+          </section>
 
-          <div class="type-group">
-            <h1>Typography</h1>
-            <img src="assets/script-slate/type-display.png" alt="The fonts of Script Slate">
-            <p class="small">The combination of these two sans serif typefaces gives the brand a professional, future-forward look without losing any legibility. Poppins is the brand typeface since it has square ends that match the logomark.</p>
-          </div>
-        </section>
+          <section class="type-section case-section">
+            <h1 class="case-header">Typography</h1>
+            <div class="type-image-container">
+              <img src="assets/script-slate/type-display.png" alt="The fonts of Script Slate">
+            </div>
+            <p>The combination of these two sans serif typefaces gives the brand a professional, future-forward look without losing any legibility. Poppins is the brand typeface since it has square ends that match the logomark.</p>
+          </section>
+
 
         <!--Wireframe Sections-->
-        <section>
-          <img src="assets/script-slate/wireframe-images.png" alt="Wireframe sketch and Digital Wireframe">
-          <h1>Wireframes</h1>
+        <section class="case-section">
+          <h1 class="case-header">Wireframes</h1>
+          <div class="wireframe-image-container">
+            <img src="assets/script-slate/wireframe-images.png" alt="Wireframe sketch and Digital Wireframe">
+          </div>
+
           <p>With my user flows clearly mapped out, I could begin planning what the application would look like with wireframe sketches that I turned into digital wireframes. Then, I created a clickable prototype in order to get some early feedback from potential users. I asked them to complete three tasks: sign up for an account, upload a piece of material, and move a piece of material into a given folder.
             <br><br>Their feedback focused primarily on the orientation of a “more options” icon as the prototype did not allow them to click and drag items, which is their preferred method of manipulating material. I remembered this moving forward into high-fidelity wireframes.</p>
         </section>
 
         <!--A/B Testing Section-->
-        <section>
-          <div class="left-pill">
-            <img src="assets/script-slate/dashboard-left.png" alt="Dashboard screen with a blue add button">
-            <p class="white centered small-body">9% of users liked this dashboard screen with the add button in the blue accent color</p>
+        <section class="case-section">
+          <h1 class="case-header">A/B Testing</h1>
+          <div class="ab1 gray-card">
+            <div class="ab-image-container">
+              <img src="assets/script-slate/dashboard-left.png" alt="Dashboard screen with a blue add button">
+            </div>
+            <p class="white centered">9% of users liked this dashboard screen with the add button in the blue accent color</p>
           </div>
 
-          <div class="right-pill">
-            <img src="assets/script-slate/dashboard-right.png" alt="Dashboard screen with a purple add button">
-            <p class="white centered small-body">91% of users preferred this dashboard where the add button matched the logo color because they thought it stood out more while still creating a more cohesive color scheme.</p>
+          <div class="ab2 gray-card">
+            <div class="ab-image-container">
+              <img src="assets/script-slate/dashboard-right.png" alt="Dashboard screen with a purple add button">
+            </div>
+            <p class="white centered">91% of users preferred this dashboard where the add button matched the logo color because they thought it stood out more while still creating a more cohesive color scheme.</p>
           </div>
 
-          <p class="centered large">After refining my mockups with A/B testing and another round of user testing focusing on aesthetic issues, I refined the product to its final form.</p>
+          <p class="centered">After refining my mockups with A/B testing and another round of user testing focusing on aesthetic issues, I refined the product to its final form.</p>
         </section>
 
         <!--Final Product Section-->
-        <section>
-          <h1>Final Product</h1>
+        <section class="case-section">
+          <h1 class="case-header">Final Product</h1>
+          <div class="final-product-image-container">
+            <img src="assets/script-slate/final-screens/homepage-desktop.png" alt="Script Slate Homepage">
+            <img src="assets/script-slate/final-screens/signup-page.png" alt="Script Slate Sign Up Page">
+            <img src="assets/script-slate/final-screens/Dashboard.png" alt="Script Slate Dashboard">
+            <img src="assets/script-slate/final-screens/material-tab.png" alt="Script Slate Material Tab">
+            <img src="assets/script-slate/final-screens/tracking-tab.png" alt="Script Slate Tracking Tab">
+            <img src="assets/script-slate/final-screens/contacts-tab.png" alt="Script Slate Contacts Tab">
+            <img src="assets/script-slate/final-screens/folder-view.png" alt="Script Slate Folder View">
+          </div>
 
-          <img src="assets/script-slate/final-screens/homepage-desktop.png" alt="Script Slate Homepage">
-          <img src="assets/script-slate/final-screens/signup-page.png" alt="Script Slate Sign Up Page">
-          <img src="assets/script-slate/final-screens/Dashboard.png" alt="Script Slate Dashboard">
-          <img src="assets/script-slate/final-screens/material-tab.png" alt="Script Slate Material Tab">
-          <img src="assets/script-slate/final-screens/tracking-tab.png" alt="Script Slate Tracking Tab">
-          <img src="assets/script-slate/final-screens/contacts-tab.png" alt="Script Slate Contacts Tab">
-          <img src="assets/script-slate/final-screens/folder-view.png" alt="Script Slate Folder View">
-        </section>
-
-        <!--Prototype Buttons Section-->
-        <section>
-          <a href="https://invis.io/PER72NI738H" target="_blank">View Desktop Prototype</a>
-          <a href="https://invis.io/AJR72QOF82U" target="_blank">View Mobile Prototype</a>
+          <section class="prototype-button-section">
+            <a class="button-link centered mobile-prototype-button" href="https://invis.io/PER72NI738H" target="_blank">View Desktop Prototype</a>
+            <a class="button-link centered" href="https://invis.io/AJR72QOF82U" target="_blank">View Mobile Prototype</a>
+          </section>
         </section>
 
         <!-- Conclusion Sections -->
-        <section>
-          <h1>Conclusion</h1>
-          <div class="left-half">
+        <section class="conclusion-section">
+          <h1 class="case-header">Conclusion</h1>
+
             <p>In conclusion, the cloud storage industry is filled with some big players, and the list of them is only growing larger. I feel as though I’ve found a niche market that has been underserved in respect to specialized platforms.</p>
 
-            <br>
-
-            <h3>Future Improvements</h3>
+            <h2>Future Improvements</h2>
             <p>The product is far from done, however. I’d like to implement a way to track everyone a certain piece of material has been sent to in the past so the product can suggest new contacts the user may have missed. I’d also like to conduct tests to see if users would like a social aspect where people could specify what kind of material they are looking for so that their contacts would be able to send them targeted material.</p>
-          </div>
 
-          <div class="right-half">
-            <h3>Lessons Learned</h3>
+
+
+            <h2>Lessons Learned</h2>
             <p>I had doubts about the need after 60% of potential users didn’t have weekend read meetings, but I feel I’ve created an MVP that users with or without those meetings at their companies would find useful since I addressed the most pressing concerns found from my research.</p>
-          </div>
+
         </section>
 
       </main>
     </div>
     <footer>
-      <div id="footer-content">
-        <h4>Reach Out!</h4>
+      <div class="footer-content">
+        <h2>Reach Out!</h2>
         <a href="mailto:ncommella@gmail.com"><img src="assets/global/email-icon.png" alt="Click to send me an email"></a>
         <a href="https://www.linkedin.com/in/nick-commella/" target="_blank"><img src="assets/global/linkedin-icon.png" alt="Click to go to my LinkedIn"></a>
         <a href="https://github.com/ncommella" target="_blank"><img src="assets/global/github-icon.png" alt="Click to go to my Github"></a>
