@@ -396,9 +396,13 @@ footer h2 {
 .email-button-wrapper {
   display: flex;
 }
+
+.full-story-header {
+  margin-top: 4rem;
+}
+
 .full-story-section {
   flex-direction: column;
-  margin-top: 4rem;
 }
 
 .story-images {
@@ -539,5 +543,28 @@ footer h2 {
 
   .script-slate-logo {
     margin: 2.4rem 0 1.6rem 0;
+  }
+
+  /**** About Page Selectors ****/
+  .email-button-wrapper{
+    display: inline-flex;
+  }
+
+  .story-images {
+    flex-direction: column;
+    flex: 250%;
+    margin-left: 3.6rem;
+  }
+
+  .full-story-section {
+    flex-direction: row-reverse;
+  }
+
+  .ux-section {
+    flex-direction: row;
+  }
+
+  .ux-text {
+    padding: 1.6rem 1.6rem 0 1.6rem;
   }
 }
