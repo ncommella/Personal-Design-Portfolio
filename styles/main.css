@@ -197,6 +197,12 @@ footer h2 {
   margin: 2.4rem auto;
 }
 
+.script-slate-info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /************ Case Study Selectors **********/
 .ab1, .ab2 {
   padding: 1.6rem;
@@ -443,12 +449,12 @@ footer h2 {
     line-height: 3.4rem;
   }
 
-  p {
+  li {
     font-size: 1.6rem;
     line-height: 2.8rem;
   }
 
-  li {
+  p {
     font-size: 1.6rem;
     line-height: 2.8rem;
   }
@@ -495,7 +501,43 @@ footer h2 {
 
 /* !!!!! Desktop Selectors !!!!!*/
 @media (min-width: 1024px){
+
+/**** Global Selectors ****/
   .container {
     max-width: 1024px;
+  }
+
+  .desktop-image {
+    display: inline-block;
+  }
+
+  .mobile-image {
+    display: none;
+  }
+
+  /**** Nav Selectors ****/
+  nav {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+
+  /**** Home Page Selectors ****/
+
+  .hero-container {
+    flex-direction: row;
+  }
+
+  .script-slate-container {
+    flex-direction: row-reverse;
+  }
+
+  .script-slate-display-images {
+    flex: 125%;
+    margin-right: 2.4rem;
+  }
+
+  .script-slate-logo {
+    margin: 2.4rem 0 1.6rem 0;
   }
 }
