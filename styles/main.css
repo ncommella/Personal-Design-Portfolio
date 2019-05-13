@@ -546,7 +546,7 @@ footer h2 {
   }
 
   .desktop-image {
-    display: inline-block;
+    display: inline-flex;
   }
 
   .mobile-image {
@@ -580,6 +580,12 @@ footer h2 {
   }
 
   /**** About Page Selectors ****/
+
+  .dallas-image {
+    height: 188px;
+    align-items: center;
+    margin-bottom: 1.6rem;
+  }
   .email-button-wrapper{
     display: inline-flex;
   }
