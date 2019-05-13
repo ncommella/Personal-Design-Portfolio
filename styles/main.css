@@ -332,7 +332,11 @@ footer h2 {
 }
 
 .top-images {
+  align-items: center;
   flex-direction: column;
+}
+
+.top-images img {
   width: 100%;
 }
 
@@ -472,6 +476,11 @@ footer h2 {
 
   .script-slate-logo {
     margin: 3.6rem auto;
+  }
+
+/**** Case Study Selectors ****/
+  .case-section {
+    margin: 26rem auto;
   }
 
 /**** Resume Selectors ****/
