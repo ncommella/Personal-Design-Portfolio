@@ -163,11 +163,11 @@ footer h2 {
   margin-bottom: 4.8rem;
 }
 
-.hero-images {
+.mobile-headshot {
   width: 100%;
 }
 
-.hero-images img {
+.mobile-headshot img {
   width: 100%;
 }
 
@@ -564,6 +564,12 @@ footer h2 {
 
   .hero-container {
     flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .hero-text h1 {
+    font-size: 4.8rem;
+    line-height: 7rem;
   }
 
   .script-slate-container {
