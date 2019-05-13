@@ -208,7 +208,7 @@ footer h2 {
   padding: 1.6rem;
 }
 
-.ab1, .ab2 p {
+.ab1 p, .ab2 p {
   margin-top: .8rem;
 }
 
@@ -230,6 +230,10 @@ footer h2 {
 .color-image-container img {
   width: 100%;
   margin-bottom: 1.6rem;
+}
+
+.color-section {
+  padding: 2.4rem;
 }
 
 .conclusion-section h2{
@@ -271,6 +275,10 @@ footer h2 {
 .lauren-image-container img {
   width: 100%;
   margin-bottom: 1.6rem;
+}
+
+.logo-images {
+  width: 100%;
 }
 
 .logo-images img {
@@ -327,8 +335,11 @@ footer h2 {
   flex-direction: column;
 }
 
-.rebranding-image-container img {
+.rebranding-image-container {
   margin-bottom: 2.4rem;
+}
+
+.rebranding-image-container img {
   width: 100%;
 }
 
@@ -344,6 +355,14 @@ footer h2 {
 
 .top-images img {
   width: 100%;
+}
+
+.type-section {
+  padding: 2.4rem;
+}
+
+.type-section h1 {
+  margin-bottom: 4.8rem;
 }
 
 .user-research p {
@@ -507,6 +526,21 @@ footer h2 {
 @media (min-width: 1024px){
 
 /**** Global Selectors ****/
+  h1 {
+    font-size: 7.2rem;
+    line-height: 10.2rem;
+  }
+
+  h2 {
+    font-size: 4.8rem;
+    line-height: 6.8rem;
+  }
+
+  h3 {
+    font-size: 3.6rem;
+    line-height: 5.1rem;
+  }
+
   .container {
     max-width: 1024px;
   }
@@ -567,4 +601,177 @@ footer h2 {
   .ux-text {
     padding: 1.6rem 1.6rem 0 1.6rem;
   }
+
+  /****Script Slate Selectors ****/
+  .ab-cards {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ab1 {
+    flex: 95;
+    margin-right: 2.4rem;
+  }
+
+  .ab2 {
+    flex: 95;
+    margin: 0;
+  }
+
+  .ab-desc {
+    margin-top: 2.4rem;
+  }
+  .case-large-body {
+    font-size: 2.6rem;
+    line-height: 3.9rem;
+  }
+
+  .case-section {
+    margin: 32rem auto;
+  }
+
+  .color-image-container {
+    width: 80%;
+  }
+
+  .color-type-desktop {
+    display: flex;
+  }
+
+  .color-section {
+    flex: 100%;
+    margin-right: 3.6rem;
+  }
+
+  .desktop-conclusion-blue-card {
+    background-color: rgba(32, 169, 241, 0.4);
+    border-radius: 30px;
+    display: flex;
+    padding: .8rem 2.4rem 2.4rem 2.4rem;
+    margin-top: 2.4rem;
+  }
+
+  .desktop-left-conclusion {
+    flex: 100;
+    margin-right: 2.4rem;
+  }
+
+  .desktop-right-conclusion {
+    flex: 100;
+  }
+
+  .type-section {
+    flex: 100%;
+  }
+
+  .type-section p {
+    margin-top: 3.6rem;
+  }
+
+  .competitive-analysis {
+    width: 75%;
+  }
+
+  .competitive-image-container {
+    width: 14.6rem;
+  }
+
+  .detail-pill {
+    padding: 3.2rem;
+  }
+
+  .details-section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .left-logo {
+    flex: 350%;
+    padding-right: 2.4rem;
+  }
+
+  .right-logo {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .logo-images {
+    display: flex;
+  }
+
+
+  .mobile-prototype-button {
+    margin: 0 2.4rem 0 0;
+  }
+
+  .modal {
+    width: 50%;
+    align-self: center;
+  }
+
+  .problem-content {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .problem-text {
+    margin-right: 3.6rem;
+  }
+
+  .prototype-button-section {
+    flex-direction: row;
+    margin-top: 4.8rem;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .rebranding-content {
+    display: flex;
+    align-items: center;
+  }
+
+  .rebranding-content p {
+    margin-left: 2.4rem;
+  }
+
+  .rebranding-image-container {
+    flex: 300%;
+  }
+
+  .script-slate-desktop-logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .solutions-content {
+    display: flex;
+  }
+
+  .solutions-text {
+    margin-left: 3.6rem;
+  }
+
+  .stories-flows {
+    background-image: url('../assets/script-slate/upload-flow.png');
+    height: 651px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+
+  .top-images {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+  }
+
+  .research-content {
+    background-color: rgba(32, 169, 241, 0.4);
+    border-radius: 30px;
+    padding: 2.4rem;
+    display: flex;
+  }
+
 }

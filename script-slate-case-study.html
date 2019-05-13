@@ -29,20 +29,27 @@
       <main>
         <!--Pictures at the top-->
         <section class="flex-container top-images">
-          <img class="desktop-image" src="assets/script-slate/dashboard-sketches.png" alt="Sketches of the Dashboard Screen">
-          <img class="desktop-image"src="assets/script-slate/dashboard-display.png" alt="The final Dashboard Screen on an iMac">
-          <img class="desktop-image"src="assets/script-slate/case-study-logo.png" alt="The Script Slate logo">
+          <div class="case-study-comparison">
+            <img class="desktop-image" src="assets/script-slate/dashboard-sketches.png" alt="Sketches of the Dashboard Screen">
+          </div>
+          <div class="case-study-comparison">
+            <img class="desktop-image"src="assets/script-slate/dashboard-display.png" alt="The final Dashboard Screen on an iMac">
+          </div>
+
 
           <img class="mobile-image mobile-case-logo"src="assets/script-slate/mobile-case-study-logo.png" alt="The Script Slate logo">
           <img class="mobile-image mobile-case-top" src="assets/script-slate/mobile-dashboard-sketches.png" alt="Sketches of the Dashboard Screen">
           <img class="mobile-image mobile-case top"src="assets/script-slate/mobile-dashboard-display.png" alt="The final Dashboard Screen on an iMac">
-
         </section>
+
+        <div class="desktop-image script-slate-desktop-logo">
+          <img src="assets/script-slate/case-study-logo.png" alt="The Script Slate logo">
+        </div>
 
         <!--Summary Section-->
         <section class="case-section">
           <h1 class="case-header">Summary</h1>
-          <p class="small-body">The entertainment industry is stuck using spreadsheets to track complex projects when it should have the modern products other industries enjoy. With thousands of screenplays changing hands in Hollywood everyday, Script Slate wants to give executives, producers, and indie filmmakers the user experience they deserve to easily organize material and submissions. That way, they have more time to be creative and make content for everyone to enjoy.</p>
+          <p class="case-large-body">The entertainment industry is stuck using spreadsheets to track complex projects when it should have the modern products other industries enjoy. With thousands of screenplays changing hands in Hollywood everyday, Script Slate wants to give executives, producers, and indie filmmakers the user experience they deserve to easily organize material and submissions. That way, they have more time to be creative and make content for everyone to enjoy.</p>
 
           <!--Prototype Buttons Section-->
           <section class="prototype-button-section">
@@ -54,28 +61,31 @@
 
 
         <!--Roles, Deliverables, and Tools Section-->
-        <section class="case-section">
-          <div class="detail-pill blue-card">
-            <h2 class="centered case-header">Design Roles</h2>
-            <ul class="small-body centered">
-              <li>UX Research & Design</li>
-              <li>UI Design</li>
-              <li>Branding Identity</li>
-            </ul>
-          </div>
+        <section class="case-section details-section">
 
-          <div class="detail-pill blue-card">
-            <h2 class="centered case-header">Time</h2>
-            <ul class="small-body centered">
-              <li>1st Major Project</li>
-              <li>Research Process: 2 Months</li>
-              <li>Design Process: 1 Month</li>
-            </ul>
+          <div class="vertical-desktop-pills">
+            <div class="detail-pill blue-card">
+              <h2 class="centered case-header">Design Roles</h2>
+              <ul class="centered">
+                <li>UX Research & Design</li>
+                <li>UI Design</li>
+                <li>Branding Identity</li>
+              </ul>
+            </div>
+
+            <div class="detail-pill blue-card">
+              <h2 class="centered case-header">Time</h2>
+              <ul class="centered">
+                <li>1st Major Project</li>
+                <li>Research Process: 2 Months</li>
+                <li>Design Process: 1 Month</li>
+              </ul>
+            </div>
           </div>
 
           <div class="detail-pill blue-card">
             <h2 class="centered case-header">Deliverables</h2>
-            <ul class="small-body centered">
+            <ul class="centered">
               <li>User Surveys</li>
               <li>Competitive Analysis</li>
               <li>User Personas</li>
@@ -93,7 +103,7 @@
 
           <div class="detail-pill blue-card">
             <h2 class="centered case-header">Tools Used</h2>
-            <ul class="small-body centered">
+            <ul class="centered">
               <li>Sketch</li>
               <li>InVision</li>
               <li>Illustrator</li>
@@ -109,48 +119,76 @@
 
           <div class="problems case-section">
             <h1 class="case-header">Problems</h1>
-            <ol>
-              <li>It's hard to keep an organized archive of material in Hollywood (scripts, short films, and feature films)</li>
-              <li>It is time consuming to track what material you've sent or received and to whom</li>
-              <li>Switching between programs to look up contact information is anooying</li>
-            </ol>
+
+            <div class="problem-content">
+
+              <div class="problem-text">
+                <ol>
+                  <li class="case-large-body">It's hard to keep an organized archive of material in Hollywood (scripts, short films, and feature films)</li>
+                  <li class="case-large-body">It is time consuming to track what material you've sent or received and to whom</li>
+                  <li class="case-large-body">Switching between programs to look up contact information is annoying</li>
+                </ol>
+              </div>
+
+              <div class="problem-image desktop-image">
+                <img src="assets/script-slate/problems.png" alt="Man pulling out his hair">
+              </div>
+
+            </div>
           </div>
 
           <div class="solutions case-section">
             <h1 class="case-header">Solutions</h1>
-            <ol>
-              <li>Let users upload scripts and videos in all formats, and store them in one sortable and filterable database</li>
-              <li>Have a tab dedicated to tracking so users can know where material came from or went to and when it happened</li>
-              <li>Include a contacts tab so that users can access that information in the same app</li>
-            </ol>
+
+            <div class="solutions-content">
+
+              <div class="solutions-image desktop-image">
+                <img src="assets/script-slate/solutions.png" alt="A solved Rubix cube">
+              </div>
+
+              <div class="solutions-text">
+                <ol>
+                  <li class="case-large-body">Let users upload scripts and videos in all formats, and store them in one sortable and filterable database</li>
+                  <li class="case-large-body">Have a tab dedicated to tracking so users can know where material came from or went to and when it happened</li>
+                  <li class="case-large-body">Include a contacts tab so that users can access that information in the same app</li>
+                </ol>
+              </div>
+            </div>
           </div>
 
         <!--User Research Section-->
         <section class="case-section user-research">
           <h1 class="case-header">User Research</h1>
-          <h2>85%</h2>
-          <p>of people use a shared database or cloud service to archive material</p>
 
-          <h2>100%</h2>
-          <p>of people want to store PDFs of scripts</p>
+          <div class="research-content">
+            <div class="research-1">
+              <h2>85%</h2>
+              <p class="case-large-body">of people use a shared database or cloud service to archive material</p>
 
-          <h2>85%</h2>
-          <p>of people want to share single items with others</p>
+              <h2>100%</h2>
+              <p class="case-large-body">of people want to store PDFs of scripts</p>
 
-          <h2>85%</h2>
-          <p>of people want to sort material by date received and sent</p>
+              <h2>85%</h2>
+              <p class="case-large-body">of people want to share single items with others</p>
+            </div>
 
-          <h2>57%</h2>
-          <p>of people want to store videos</p>
+            <div class="research-2">
+              <h2>85%</h2>
+              <p class="case-large-body">of people want to sort material by date received and sent</p>
 
-          <h2>86%</h2>
-          <p>of people found it difficult to track the flow of material</p>
+              <h2>57%</h2>
+              <p class="case-large-body">of people want to store videos</p>
+
+              <h2>86%</h2>
+              <p class="case-large-body">of people found it difficult to track the flow of material</p>
+            </div>
+          </div>
         </section>
 
         <!--Competitive Analysis Section -->
-        <section class="case-section">
+        <section class="case-section competitive-analysis">
           <h1 class="case-header">Competitive Analysis</h1>
-          <p>To ensure Script Slate could carve out a niche in the cloud market, I examined three competitors: Google Drive, Dropbox, and Evernote. They had many strengths such as the ability to upload multiple kinds of files, good design, and folder-based organization. However, none of them had tracking capabilities for files or incorporated contacts that would greatly enhance the Hollywood workflow.</p>
+          <p class="case-large-body">To ensure Script Slate could carve out a niche in the cloud market, I examined three competitors: Google Drive, Dropbox, and Evernote. They had many strengths such as the ability to upload multiple kinds of files, good design, and folder-based organization. However, none of them had tracking capabilities for files or incorporated contacts that would greatly enhance the Hollywood workflow.</p>
 
           <div class="competitive-images">
             <div class="competitive-image-container">
@@ -174,20 +212,20 @@
               <img src="assets/script-slate/lauren.png" alt="Lauren, an aspiring filmmaker">
             </div>
             <h2>Lauren H.</h2>
-            <p>29 Y/O aspiring filmmaker from Los Angeles</p>
+            <p class="case-large-body">29 Y/O aspiring filmmaker from Los Angeles</p>
 
             <h2>Goals</h2>
             <ul>
-              <li>I want to easily track who I've sent my scripts to</li>
-              <li>I want to send my material to my contacts on the fly</li>
-              <li>I want to be able to access all my material in one central place</li>
+              <li class="case-large-body">I want to easily track who I've sent my scripts to</li>
+              <li class="case-large-body">I want to send my material to my contacts on the fly</li>
+              <li class="case-large-body">I want to be able to access all my material in one central place</li>
             </ul>
 
             <h2>Frustrations</h2>
             <ul>
-              <li>Sometimes I send the wrong version of a script, and I have to resend the correct one</li>
-              <li>I hate remembering a bunch of passwords for different services</li>
-              <li>Creating script breakdowns for my projects is time-consuming</li>
+              <li class="case-large-body">Sometimes I send the wrong version of a script, and I have to resend the correct one</li>
+              <li class="case-large-body">I hate remembering a bunch of passwords for different services</li>
+              <li class="case-large-body">Creating script breakdowns for my projects is time-consuming</li>
             </ul>
           </div>
 
@@ -196,28 +234,27 @@
               <img src="assets/script-slate/ethan.png" alt="Ethan, a development coordinator">
             </div>
             <h2>Ethan C.</h2>
-            <p>28 Y/O development coordinator from New York City</p>
+            <p class="case-large-body">28 Y/O development coordinator from New York City</p>
 
             <h2>Goals</h2>
             <ul>
-              <li>I want to know what scripts came into the company in the last week</li>
-              <li>I want to distribute material to team members easily</li>
-              <li>I want to quickly find any obscure script my bosses need to see</li>
+              <li class="case-large-body">I want to know what scripts came into the company in the last week</li>
+              <li class="case-large-body">I want to distribute material to team members easily</li>
+              <li class="case-large-body">I want to quickly find any obscure script my bosses need to see</li>
             </ul>
 
             <h2>Frustrations</h2>
             <ul>
-              <li>I have to remind some people to look at their assigned materials over and over</li>
-              <li>Notes on material can be hard to track or format when they are in other documents</li>
-              <li>Sometimes I forget to follow up on material I've sent out to colleagues</li>
+              <li class="case-large-body">I have to remind some people to look at their assigned materials over and over</li>
+              <li class="case-large-body">Notes on material can be hard to track or format when they are in other documents</li>
+              <li class="case-large-body">Sometimes I forget to follow up on material I've sent out to colleagues</li>
             </ul>
           </div>
         </section>
 
         <!--User Stories & User Flows Section-->
-        <section class="case-section gray-card">
-          <img class="desktop-image" src="assets/script-slate/upload-flow.png" alt="User flow of uploading an item">
-          <div class="modal">
+        <section class="case-section stories-flows">
+          <div class="modal gray-card">
             <h2 class="centered white case-header">User Stories & User Flows</h2>
             <p class="centered white">Based on the user personas and market survey, I generated user stories based on the needs of New, Returning, and All users. These stories were then converted into user flows using whimsical.co in order to determine the most efficient ways for users to accomplish their goals.</p>
 
@@ -231,45 +268,57 @@
         <!--Rebranding Section-->
         <section class="case-section">
           <h1 class="case-header">Rebranding</h1>
-          <div class="rebranding-image-container">
-            <img src="assets/script-slate/rebranding-sketches.png" alt="Logo sketches for Weekend Speed">
+          <div class="rebranding-content">
+            <div class="rebranding-image-container">
+              <img src="assets/script-slate/rebranding-sketches.png" alt="Logo sketches for Weekend Speed">
+            </div>
+            <p>The app was originally planned to assist with a unique meeting in Hollywood called a weekend read, and the name for the app was going to be Weekend Speed. However, the user research showed that 60% of people didn’t have a weekend read at their companies so a pivot was called for. I sent out another survey with potential names generated by analyzing the problems users actually wanted solved. They voted for Script Slate. In Hollywood, “slate” is a term that refers to a company’s list of projects or their “slate.”
+            <br><br>With a new name selected, I set to work developing a logo.</p>
           </div>
-          <p>The app was originally planned to assist with a unique meeting in Hollywood called a weekend read, and the name for the app was going to be Weekend Speed. However, the user research showed that 60% of people didn’t have a weekend read at their companies so a pivot was called for. I sent out another survey with potential names generated by analyzing the problems users actually wanted solved. They voted for Script Slate. In Hollywood, “slate” is a term that refers to a company’s list of projects or their “slate.”
-          <br><br>With a new name selected, I set to work developing a logo.</p>
         </section>
 
         <!--Logos Section-->
         <section class="case-section">
           <h1 class="case-header">Logo</h1>
           <div class="logo-images">
-            <img src="assets/script-slate/logo-sketches.png" alt="Sketches and planning for the Script Slate logo">
-            <img src="assets/script-slate/logo-pill.png" alt="Script Slate logo">
-            <img src="assets/script-slate/light-logo-pill.png" alt="Light version of the Script Slate logo">
-            <img src="assets/script-slate/b-logo-pill.png" alt="Dark monochrome Script Slate logo">
-            <img src="assets/script-slate/w-logo-pill.png" alt="Light monochrome Script Slate logo">
+            <div class="left-logo">
+              <img src="assets/script-slate/logo-sketches.png" alt="Sketches and planning for the Script Slate logo">
+            </div>
+            <div class="right-logo">
+              <img src="assets/script-slate/logo-pill.png" alt="Script Slate logo">
+              <img src="assets/script-slate/light-logo-pill.png" alt="Light version of the Script Slate logo">
+
+
+                <img src="assets/script-slate/b-logo-pill.png" alt="Dark monochrome Script Slate logo">
+                <img src="assets/script-slate/w-logo-pill.png" alt="Light monochrome Script Slate logo">
+
+                <p>The logo resembles the material cards the user will see in the app when viewing all their uploaded material. The simple geometric shapes and simple design communicate the organized and clean feel of the app. The staggered layout forms the shape of an “S” for Script Slate. Furthermore, the clean, plain squares resemble a slab of slate.</p>
+
+            </div>
           </div>
 
-            <p>The logo resembles the material cards the user will see in the app when viewing all their uploaded material. The simple geometric shapes and simple design communicate the organized and clean feel of the app. The staggered layout forms the shape of an “S” for Script Slate. Furthermore, the clean, plain squares resemble a slab of slate.</p>
+
 
         </section>
 
         <!--Color and Type Sections  Make backgrounds of divs blue on styling pass-->
-          <section class="color-section case-section">
-            <h1 class="case-header">Color</h1>
-            <div class="color-image-container">
-              <img src="assets/script-slate/color-grid.png" alt="Grid of the Script Slate colors">
-            </div>
-            <p>I chose purple for the logo since it combines the passion of red and the professionalism of blue. The color psychology also communicates our creative brand. Blue and orange are the two most commonly used contrasting colors in movie posters so they were a natural choice for accents. The muted red orange ties the accents back into the purple, and is used for actions with a more negative connotation. The various gray shades allow for more multi-dimensional designs without distracting the eye.</p>
-          </section>
+        <section class="color-type-desktop">
+            <section class="color-section case-section blue-card">
+              <h1 class="case-header">Color</h1>
+              <div class="color-image-container">
+                <img src="assets/script-slate/color-grid.png" alt="Grid of the Script Slate colors">
+              </div>
+              <p>I chose purple for the logo since it combines the passion of red and the professionalism of blue. The color psychology also communicates our creative brand. Blue and orange are the two most commonly used contrasting colors in movie posters so they were a natural choice for accents. The muted red orange ties the accents back into the purple, and is used for actions with a more negative connotation. The various gray shades allow for more multi-dimensional designs without distracting the eye.</p>
+            </section>
 
-          <section class="type-section case-section">
-            <h1 class="case-header">Typography</h1>
-            <div class="type-image-container">
-              <img src="assets/script-slate/type-display.png" alt="The fonts of Script Slate">
-            </div>
-            <p>The combination of these two sans serif typefaces gives the brand a professional, future-forward look without losing any legibility. Poppins is the brand typeface since it has square ends that match the logomark.</p>
+            <section class="type-section case-section blue-card">
+              <h1 class="case-header">Typography</h1>
+              <div class="type-image-container">
+                <img src="assets/script-slate/type-display.png" alt="The fonts of Script Slate">
+              </div>
+              <p>The combination of these two sans serif typefaces gives the brand a professional, future-forward look without losing any legibility. Poppins is the brand typeface since it has square ends that match the logomark.</p>
+            </section>
           </section>
-
 
         <!--Wireframe Sections-->
         <section class="case-section">
@@ -285,21 +334,24 @@
         <!--A/B Testing Section-->
         <section class="case-section">
           <h1 class="case-header">A/B Testing</h1>
-          <div class="ab1 gray-card">
-            <div class="ab-image-container">
-              <img src="assets/script-slate/dashboard-left.png" alt="Dashboard screen with a blue add button">
-            </div>
-            <p class="white centered">9% of users liked this dashboard screen with the add button in the blue accent color</p>
-          </div>
 
-          <div class="ab2 gray-card">
-            <div class="ab-image-container">
-              <img src="assets/script-slate/dashboard-right.png" alt="Dashboard screen with a purple add button">
+          <section class="ab-cards">
+            <div class="ab1 gray-card">
+              <div class="ab-image-container">
+                <img src="assets/script-slate/dashboard-left.png" alt="Dashboard screen with a blue add button">
+              </div>
+              <p class="white centered">9% of users liked this dashboard screen with the add button in the blue accent color</p>
             </div>
-            <p class="white centered">91% of users preferred this dashboard where the add button matched the logo color because they thought it stood out more while still creating a more cohesive color scheme.</p>
-          </div>
 
-          <p class="centered">After refining my mockups with A/B testing and another round of user testing focusing on aesthetic issues, I refined the product to its final form.</p>
+            <div class="ab2 gray-card">
+              <div class="ab-image-container">
+                <img src="assets/script-slate/dashboard-right.png" alt="Dashboard screen with a purple add button">
+              </div>
+              <p class="white centered">91% of users preferred this dashboard where the add button matched the logo color because they thought it stood out more while still creating a more cohesive color scheme.</p>
+            </div>
+          </section>
+
+          <p class="centered case-large-body ab-desc">After refining my mockups with A/B testing and another round of user testing focusing on aesthetic issues, I refined the product to its final form.</p>
         </section>
 
         <!--Final Product Section-->
@@ -325,15 +377,19 @@
         <section class="conclusion-section">
           <h1 class="case-header">Conclusion</h1>
 
-            <p>In conclusion, the cloud storage industry is filled with some big players, and the list of them is only growing larger. I feel as though I’ve found a niche market that has been underserved in respect to specialized platforms.</p>
+            <p class="case-large-body">In conclusion, the cloud storage industry is filled with some big players, and the list of them is only growing larger. I feel as though I’ve found a niche market that has been underserved in respect to specialized platforms.</p>
 
-            <h2>Future Improvements</h2>
-            <p>The product is far from done, however. I’d like to implement a way to track everyone a certain piece of material has been sent to in the past so the product can suggest new contacts the user may have missed. I’d also like to conduct tests to see if users would like a social aspect where people could specify what kind of material they are looking for so that their contacts would be able to send them targeted material.</p>
+            <div class="desktop-conclusion-blue-card">
+              <div class="desktop-left-conclusion">
+                <h2>Future Improvements</h2>
+                <p>The product is far from done, however. I’d like to implement a way to track everyone a certain piece of material has been sent to in the past so the product can suggest new contacts the user may have missed. I’d also like to conduct tests to see if users would like a social aspect where people could specify what kind of material they are looking for so that their contacts would be able to send them targeted material.</p>
+              </div>
 
-
-
-            <h2>Lessons Learned</h2>
-            <p>I had doubts about the need after 60% of potential users didn’t have weekend read meetings, but I feel I’ve created an MVP that users with or without those meetings at their companies would find useful since I addressed the most pressing concerns found from my research.</p>
+              <div class="desktop-right-conclusion">
+                <h2>Lessons Learned</h2>
+                <p>I had doubts about the need after 60% of potential users didn’t have weekend read meetings, but I feel I’ve created an MVP that users with or without those meetings at their companies would find useful since I addressed the most pressing concerns found from my research.</p>
+              </div>
+            </div>
 
         </section>
 
