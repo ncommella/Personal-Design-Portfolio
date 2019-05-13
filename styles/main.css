@@ -86,7 +86,7 @@ span {
 }
 
 
-.med-body {
+.large-body {
   font-size: 1.6rem;
   line-height: 2.8rem;
 }
@@ -158,6 +158,7 @@ footer h2 {
 /********** Home Page Selectors **********/
 
 .hero-container {
+  align-items: center;
   flex-direction: column;
   margin-bottom: 4.8rem;
 }
@@ -165,13 +166,15 @@ footer h2 {
 .hero-images {
   width: 100%;
 }
+
+.hero-images img {
+  width: 100%;
+}
+
 .hero-text {
   margin: 2.4rem 0 2.4rem 1.6rem;
 }
 
-.hero-wrapper img {
-  width: 100%;
-}
 
 .script-slate-button {
   margin: 2.4rem 0;
@@ -180,6 +183,14 @@ footer h2 {
 .script-slate-container {
   flex-direction: column;
   align-items: center;
+}
+
+.script-slate-display-images {
+  width: 100%;
+}
+
+.script-slate-display-images img {
+  width: 100%;
 }
 
 .script-slate-logo {
@@ -410,21 +421,72 @@ footer h2 {
 }
 
 /* !!!!! Tablet Selectors !!!!!*/
+
 @media (min-width: 768px){
+/**** Global Selectors ****/
+  h1 {
+    font-size: 4.8rem;
+    line-height: 6.8rem;
+  }
+
+  h2 {
+    font-size: 3.6rem;
+    line-height: 5.1rem;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+  }
+
+  li {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+  }
+
   .container {
     max-width: 704px;
   }
 
-  /*.desktop-image {
-    display: inline-block;
+  .large-body {
+    font-size: 2.6rem;
+    line-height: 3.9rem;
+  }
+/**** Home Page Selectors ****/
+  .hero-container, .script-slate-container {
+    border-radius: 65px;
   }
 
-  .mobile-image {
-    display: none;
+  .hero-text {
+    margin: 3.6rem 0 3.6rem 2.4rem;
   }
-}*/
+
+  .project-description {
+    padding: 0 1.6rem;
+  }
+
+  .script-slate-logo {
+    margin: 3.6rem auto;
+  }
+
+/**** Resume Selectors ****/
+  .skill-group-2 {
+    margin-left: 4rem;
+  }
+  .skills {
+    justify-content: flex-start;
+  }
+
+}
 
 /* !!!!! Desktop Selectors !!!!!*/
 @media (min-width: 1024px){
-
+  .container {
+    max-width: 1024px;
+  }
 }
