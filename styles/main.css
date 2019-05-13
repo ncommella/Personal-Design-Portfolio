@@ -8,7 +8,7 @@
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'fira sans';
+  font-family: 'fira sans', sans-serif;
   font-weight: 700;
 }
 
@@ -29,13 +29,13 @@ h3 {
 
 
 li {
-  font-family: 'montserrat';
+  font-family: 'montserrat', sans-serif;
   font-size: 1.2rem;
   line-height: 2.6rem;
 }
 
 p {
-  font-family: 'montserrat';
+  font-family: 'montserrat', sans-serif;
   font-size: 1.2rem;
   line-height: 2.6rem;
 }
@@ -51,7 +51,7 @@ span {
 
 .button-link {
   border-radius: 5px;
-  font-family: 'open sans';
+  font-family: 'open sans', sans-serif;
   font-size: 1.8rem;
   line-height: 2.4rem;
   text-decoration: none;
@@ -125,7 +125,7 @@ nav {
 
 .nav-item a {
   color: #002166;
-  font-family: 'open sans';
+  font-family: 'open sans', sans-serif;
   font-size: 1.8rem;
   font-weight: 700;
   text-decoration: none;
