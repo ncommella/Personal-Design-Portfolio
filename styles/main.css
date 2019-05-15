@@ -457,7 +457,7 @@ footer h2 {
 
 /* !!!!! Tablet Selectors !!!!!*/
 
-@media only screen (min-width: 768px) {
+@media (min-width: 768px) {
 /**** Global Selectors ****/
   h1 {
     font-size: 4.8rem;
@@ -525,7 +525,7 @@ footer h2 {
 }
 
 /* !!!!! Desktop Selectors !!!!!*/
-@media only screen and (min-width: 1100px) {
+@media (min-width: 1100px) {
 
 /**** Global Selectors ****/
   h1 {
@@ -579,7 +579,8 @@ footer h2 {
   }
 
   .script-slate-display-images {
-    padding: 2.4rem;
+    flex: 125%;
+    margin-right: 2.4rem;
   }
 
   .script-slate-logo {
@@ -591,7 +592,7 @@ footer h2 {
   .dallas-image {
     height: 188px;
     align-items: center;
-    margin: 1.6rem 0;
+    margin-bottom: 1.6rem;
   }
   .email-button-wrapper{
     display: inline-flex;
@@ -599,8 +600,8 @@ footer h2 {
 
   .story-images {
     flex-direction: column;
+    flex: 250%;
     margin-left: 3.6rem;
-    flex: 125%;
   }
 
   .full-story-section {
