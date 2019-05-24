@@ -161,12 +161,11 @@ footer h2 {
   margin-bottom: 4.8rem;
 }
 
-.mobile-headshot {
+.headshot-wrapper {
   width: 100%;
-}
-
-.mobile-headshot img {
-  width: 100%;
+  height: 300px;
+  background-image: url("../assets/home/square-hero.png");
+  background-size: cover;
 }
 
 .hero-text {
@@ -491,7 +490,9 @@ footer h2 {
     line-height: 3.9rem;
   }
 /**** Home Page Selectors ****/
-
+  .headshot-wrapper {
+    height: 400px;
+  }
   .hero-text {
     margin: 3.6rem 0 3.6rem 2.4rem;
   }
@@ -558,10 +559,12 @@ footer h2 {
 
 
   /**** Home Page Selectors ****/
+  .headshot-wrapper {
+    height: 600px;
+  }
 
   .hero-container {
     flex-direction: row;
-    align-items: flex-start;
   }
 
   .hero-text {
