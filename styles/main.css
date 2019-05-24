@@ -170,6 +170,7 @@ footer h2 {
 
 .hero-text {
   margin: 2.4rem 0 2.4rem 1.6rem;
+  padding: 1.6rem;
 }
 
 
@@ -561,6 +562,7 @@ footer h2 {
   /**** Home Page Selectors ****/
   .headshot-wrapper {
     height: 600px;
+    flex: 125%;
   }
 
   .hero-container {
