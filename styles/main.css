@@ -246,7 +246,7 @@ footer h2 {
 
 .competitive-image-container {
   width: 7.4rem;
-  margin-right: .8rem;
+  margin-right: 7.2rem;
 }
 
 .competitive-images img {
@@ -341,6 +341,14 @@ footer h2 {
 
 .rebranding-image-container img {
   width: 100%;
+}
+
+.script-slate-hero {
+  margin-bottom: 4rem;
+}
+
+.solutions-image {
+  flex: 150%;
 }
 
 .type-image-container img {
@@ -515,6 +523,20 @@ footer h2 {
 /**** Case Study Selectors ****/
   .case-section {
     margin: 26rem auto;
+  }
+
+  .ethan, .lauren {
+    padding: 1.6rem;
+    flex-basis: 50%;
+  }
+
+  .ethan-image-container img {
+    margin: 0 0 1.6rem 0;
+  }
+
+  .persona-sbs {
+    display: flex;
+    justify-content: space-between;
   }
 
 /**** Resume Selectors ****/
