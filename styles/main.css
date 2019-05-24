@@ -183,13 +183,15 @@ footer h2 {
   align-items: center;
 }
 
-.script-slate-display-images {
+.script-slate-display-image {
+  background-image: url("../assets/home/square-display.png");
+  height: 200px;
   width: 100%;
+  background-size: cover;
+  background-position: center;
+
 }
 
-.script-slate-display-images img {
-  width: 100%;
-}
 
 .script-slate-logo {
   margin: 2.4rem auto;
@@ -502,6 +504,10 @@ footer h2 {
     padding: 0 1.6rem;
   }
 
+  .script-slate-display-image {
+    height: 400px;
+  }
+
   .script-slate-logo {
     margin: 3.6rem auto;
   }
@@ -575,12 +581,11 @@ footer h2 {
   }
 
   .script-slate-container {
-    flex-direction: row-reverse;
+    flex-direction: column;
   }
 
-  .script-slate-display-images {
-    flex: 125%;
-    margin-right: 2.4rem;
+  .script-slate-display-image {
+    height: 600px;
   }
 
   .script-slate-logo {
