@@ -40,10 +40,6 @@ p {
   line-height: 2.6rem;
 }
 
-span {
-  font-weight: 400;
-}
-
 .blue-card {
   background-color: rgba(32, 169, 241, 0.4);
 
@@ -416,6 +412,15 @@ footer h2 {
   color: white;
 }
 
+.testing-image-wrapper {
+  margin-top: 2.4rem;
+  width: 100%;
+}
+
+.testing-image-wrapper img{
+  width: 100%;
+}
+
 .top-images {
   align-items: center;
   flex-direction: column;
@@ -486,6 +491,16 @@ footer h2 {
   padding: .8rem;
 }
 
+.wireframe-button {
+  align-self: center;
+  margin-top: 2.4rem;
+}
+
+.wireframe-content {
+  display: flex;
+  flex-direction: column;
+}
+
 .wireframe-image-container img {
   margin-bottom: 1.6rem;
   width: 100%;
@@ -510,6 +525,10 @@ footer h2 {
   margin-bottom: 2.4rem;
 }
 
+.job span {
+  font-weight: 400;
+}
+
 .skills {
   display: flex;
   justify-content: space-between;
@@ -531,6 +550,9 @@ footer h2 {
 }
 
 /********** About Page Selectors **********/
+.about-text strong {
+  font-weight: 700;
+}
 .email-button-wrapper {
   display: flex;
 }
@@ -570,6 +592,10 @@ footer h2 {
 
 .ux-text p {
   margin-top: .8rem;
+}
+
+.ux-text strong {
+  font-weight: 700;
 }
 
 /* !!!!! Tablet Selectors !!!!!*/
@@ -728,7 +754,7 @@ footer h2 {
   .dallas-image {
     height: 188px;
     align-items: center;
-    margin-bottom: 1.6rem;
+    margin: 1.6rem auto;
   }
   .email-button-wrapper{
     display: inline-flex;
@@ -793,10 +819,13 @@ footer h2 {
     margin-right: 3.6rem;
   }
 
-  .desktop-conclusion-blue-card {
+  .conclusion-section {
     background-color: rgba(32, 169, 241, 0.4);
+    padding: 2.4rem;
+  }
+
+  .desktop-conclusion-blue-card {
     display: flex;
-    padding: .8rem 2.4rem 2.4rem 2.4rem;
     margin-top: 2.4rem;
   }
 
