@@ -222,6 +222,12 @@ footer h2 {
   margin: 16rem auto;
 }
 
+.chart-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto 4.8rem auto;
+}
+
 .color-image-container img {
   width: 100%;
   margin-bottom: 1.6rem;
@@ -660,6 +666,10 @@ footer h2 {
     margin: 26rem auto;
   }
 
+  .chart-container {
+    width: 80%;
+  }
+
   .ethan, .lauren {
     padding: 1.6rem;
     flex-basis: 50%;
@@ -804,6 +814,10 @@ footer h2 {
 
   .case-section {
     margin: 32rem auto;
+  }
+
+  .chart-container {
+    width: 65%;
   }
 
   .color-image-container {

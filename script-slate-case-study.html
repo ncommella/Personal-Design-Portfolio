@@ -175,7 +175,33 @@
         <section class="case-section user-research">
           <h1 class="case-header">User Research</h1>
           <div class="chart-container">
+            <canvas id="myChart" width="100" height="100"></canvas>
+            <script>
+            var ctx = document.getElementById('myChart');
+            var myChart = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Excel Spreadsheet', 'Google Spreadsheet', 'Airtable Database', "We Don't"],
+                    datasets: [{
+                        label: '% of Users',
+                        data: [57.1, 14.3, 14.3, 14.3],
+                        backgroundColor: [
+                            'green',
+                            'blue',
+                            'yellow',
+                            'red'
+                        ]
+                    }]
+                },
+                options: {
+                  title: {
+                    display: true,
+                    text: 'Methods Used to Track Previous Material (by % of users)'
+                  }
 
+                }
+            });
+            </script>
           </div>
 
           <div class="research-content">
