@@ -237,6 +237,11 @@ footer h2 {
   padding: 2.4rem;
 }
 
+.conclusion-section {
+  background-color: rgba(32, 169, 241, 0.4);
+  padding: 2.4rem;
+}
+
 .conclusion-section h2{
   margin: 2.4rem 0 .8rem 0;
 }
@@ -809,7 +814,7 @@ footer h2 {
   }
   .case-large-body {
     font-size: 2.6rem;
-    line-height: 3.9rem;
+    line-height: 4.2rem;
   }
 
   .case-section {
@@ -831,25 +836,6 @@ footer h2 {
   .color-section {
     flex: 100%;
     margin-right: 3.6rem;
-  }
-
-  .conclusion-section {
-    background-color: rgba(32, 169, 241, 0.4);
-    padding: 2.4rem;
-  }
-
-  .desktop-conclusion-blue-card {
-    display: flex;
-    margin-top: 2.4rem;
-  }
-
-  .desktop-left-conclusion {
-    flex: 100;
-    margin-right: 2.4rem;
-  }
-
-  .desktop-right-conclusion {
-    flex: 100;
   }
 
   .type-section {
