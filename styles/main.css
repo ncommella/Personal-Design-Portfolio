@@ -951,6 +951,15 @@ footer h2 {
     margin-bottom: 4rem;
   }
 
+  .user-research p {
+    padding: 0 1rem;
+    text-align: center;
+  }
+
+  .user-research h2 {
+    text-align: center;
+  }
+
   .flow-image-wrapper {
     width: 100%;
   }
